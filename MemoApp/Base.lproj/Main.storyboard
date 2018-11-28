@@ -175,6 +175,7 @@
                     </tableView>
                     <connections>
                         <segue destination="yYt-Zu-79l" kind="show" id="FXW-9q-00R"/>
+                        <segue destination="Wui-ww-vbJ" kind="show" id="bRY-tW-j82"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RbP-wJ-mCS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -195,11 +196,11 @@
                                     <constraint firstAttribute="width" secondItem="I2t-Q5-dw4" secondAttribute="height" multiplier="343:128" id="H0p-RK-S89"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bNb-76-hrb">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="메모" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bNb-76-hrb">
                                 <rect key="frame" x="16" y="200" width="343" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -216,14 +217,77 @@
                     </view>
                     <navigationItem key="navigationItem" title="메모 작성" id="1hP-GB-4fC">
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="camera" id="VdK-8t-5id"/>
-                            <barButtonItem title="저장" id="iJS-ir-esW"/>
+                            <barButtonItem systemItem="camera" id="VdK-8t-5id">
+                                <connections>
+                                    <action selector="pick:" destination="yYt-Zu-79l" id="kPT-xy-QM2"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="저장" id="iJS-ir-esW">
+                                <connections>
+                                    <action selector="save:" destination="yYt-Zu-79l" id="Ga0-6g-VJh"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="contents" destination="bNb-76-hrb" id="gAd-Zm-CyV"/>
+                        <outlet property="preview" destination="I2t-Q5-dw4" id="XlW-K8-oB9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f1l-Vt-0hi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2520.8000000000002" y="-565.36731634182911"/>
+            <point key="canvasLocation" x="2521" y="-1008"/>
+        </scene>
+        <!--상세 보기-->
+        <scene sceneID="39L-mW-LLU">
+            <objects>
+                <viewController storyboardIdentifier="MemoReadVC" id="Wui-ww-vbJ" customClass="MemoReadVC" customModule="MemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eE4-Hd-ggi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0x-24-Gy9">
+                                <rect key="frame" x="16" y="64" width="343" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="gGY-sP-JcH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zd4-rt-OTD">
+                                <rect key="frame" x="16" y="114" width="343" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zd4-rt-OTD" secondAttribute="height" multiplier="343:207" id="Uc7-7e-XGN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHb-hC-kGW">
+                                <rect key="frame" x="16" y="329" width="343" height="338"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aHb-hC-kGW" firstAttribute="leading" secondItem="zER-RP-svo" secondAttribute="leading" constant="16" id="3mF-V6-28T"/>
+                            <constraint firstItem="aHb-hC-kGW" firstAttribute="top" secondItem="zd4-rt-OTD" secondAttribute="bottom" constant="8" id="4YQ-Ad-ZeT"/>
+                            <constraint firstItem="zER-RP-svo" firstAttribute="trailing" secondItem="zd4-rt-OTD" secondAttribute="trailing" constant="16" id="7UD-lg-zu5"/>
+                            <constraint firstItem="zd4-rt-OTD" firstAttribute="top" secondItem="G0x-24-Gy9" secondAttribute="bottom" constant="8" id="CTz-ZE-caT"/>
+                            <constraint firstItem="zd4-rt-OTD" firstAttribute="leading" secondItem="zER-RP-svo" secondAttribute="leading" constant="16" id="K2G-e3-Gh6"/>
+                            <constraint firstItem="zER-RP-svo" firstAttribute="trailing" secondItem="aHb-hC-kGW" secondAttribute="trailing" constant="16" id="OtH-SG-fOp"/>
+                            <constraint firstItem="zER-RP-svo" firstAttribute="trailing" secondItem="G0x-24-Gy9" secondAttribute="trailing" constant="16" id="STZ-Jm-Oxr"/>
+                            <constraint firstItem="zER-RP-svo" firstAttribute="bottom" secondItem="aHb-hC-kGW" secondAttribute="bottom" id="Y1O-T5-DuU"/>
+                            <constraint firstItem="G0x-24-Gy9" firstAttribute="top" secondItem="zER-RP-svo" secondAttribute="top" id="hGd-wW-n1k"/>
+                            <constraint firstItem="G0x-24-Gy9" firstAttribute="leading" secondItem="zER-RP-svo" secondAttribute="leading" constant="16" id="piF-wb-WpS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zER-RP-svo"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="상세 보기" id="Wyd-mC-Zu0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vEB-Hs-GaN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2520.8000000000002" y="-307.1964017991005"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dg4-Im-h9q">
