@@ -13,6 +13,8 @@
 		AAD7672821AE303A00C437B5 /* MemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAD7672621AE303A00C437B5 /* MemoApp.xcdatamodeld */; };
 		AAD7672A21AE304700C437B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD7672921AE304700C437B5 /* Assets.xcassets */; };
 		AAD7672D21AE304700C437B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD7672B21AE304700C437B5 /* LaunchScreen.storyboard */; };
+		AAD7673521AE309600C437B5 /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7673421AE309600C437B5 /* MemoListVC.swift */; };
+		AAD7673721AE40F800C437B5 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7673621AE40F800C437B5 /* MemoFormVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AAD7672921AE304700C437B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAD7672C21AE304700C437B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAD7672E21AE304700C437B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD7673421AE309600C437B5 /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		AAD7673621AE40F800C437B5 /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				AAD7672B21AE304700C437B5 /* LaunchScreen.storyboard */,
 				AAD7672E21AE304700C437B5 /* Info.plist */,
 				AAD7672621AE303A00C437B5 /* MemoApp.xcdatamodeld */,
+				AAD7673421AE309600C437B5 /* MemoListVC.swift */,
+				AAD7673621AE40F800C437B5 /* MemoFormVC.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD7672221AE303A00C437B5 /* ViewController.swift in Sources */,
+				AAD7673721AE40F800C437B5 /* MemoFormVC.swift in Sources */,
 				AAD7672821AE303A00C437B5 /* MemoApp.xcdatamodeld in Sources */,
+				AAD7673521AE309600C437B5 /* MemoListVC.swift in Sources */,
 				AAD7672021AE303A00C437B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
