@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB53EFE21AF7430008A3DD7 /* MemoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB53EFD21AF7430008A3DD7 /* MemoListCell.swift */; };
+		AAB53F0121AF993B008A3DD7 /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB53F0021AF993A008A3DD7 /* coffee.png */; };
 		AAD7672021AE303A00C437B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7671F21AE303A00C437B5 /* AppDelegate.swift */; };
 		AAD7672221AE303A00C437B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7672121AE303A00C437B5 /* ViewController.swift */; };
 		AAD7672521AE303A00C437B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD7672321AE303A00C437B5 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAB53EFD21AF7430008A3DD7 /* MemoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListCell.swift; sourceTree = "<group>"; };
+		AAB53F0021AF993A008A3DD7 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
 		AAD7671C21AE303A00C437B5 /* MemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD7671F21AE303A00C437B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAD7672121AE303A00C437B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAB53EFF21AF989D008A3DD7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AAB53F0021AF993A008A3DD7 /* coffee.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		AAD7671321AE303A00C437B5 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +76,7 @@
 		AAD7671E21AE303A00C437B5 /* MemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				AAB53EFF21AF989D008A3DD7 /* images */,
 				AAD7671F21AE303A00C437B5 /* AppDelegate.swift */,
 				AAD7672121AE303A00C437B5 /* ViewController.swift */,
 				AAD7672321AE303A00C437B5 /* Main.storyboard */,
@@ -75,6 +88,7 @@
 				AAD7673621AE40F800C437B5 /* MemoFormVC.swift */,
 				AAD7673821AE60E800C437B5 /* MemoReadVC.swift */,
 				AAD7673A21AE696700C437B5 /* MemoVO.swift */,
+				AAB53EFD21AF7430008A3DD7 /* MemoListCell.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
@@ -138,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD7672D21AE304700C437B5 /* LaunchScreen.storyboard in Resources */,
+				AAB53F0121AF993B008A3DD7 /* coffee.png in Resources */,
 				AAD7672A21AE304700C437B5 /* Assets.xcassets in Resources */,
 				AAD7672521AE303A00C437B5 /* Main.storyboard in Resources */,
 			);
@@ -157,6 +172,7 @@
 				AAD7672821AE303A00C437B5 /* MemoApp.xcdatamodeld in Sources */,
 				AAD7673521AE309600C437B5 /* MemoListVC.swift in Sources */,
 				AAD7672021AE303A00C437B5 /* AppDelegate.swift in Sources */,
+				AAB53EFE21AF7430008A3DD7 /* MemoListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

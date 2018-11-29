@@ -51,12 +51,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="AcR-Rl-eMP">
+                            <rect key="frame" x="0.0" y="205" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MemoCell" rowHeight="85" id="uM8-Li-8QM">
-                                <rect key="frame" x="0.0" y="29" width="375" height="85"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MemoListCell" rowHeight="88" id="uM8-Li-8QM" customClass="MemoListCell" customModule="MemoApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="29" width="375" height="88"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uM8-Li-8QM" id="biS-jl-GhE">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="84.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="87.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="글의 제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxe-k1-R0Q">
@@ -93,7 +98,7 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="ebw-oN-EBV" firstAttribute="top" secondItem="biS-jl-GhE" secondAttribute="topMargin" id="2yO-EO-1l9"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="ebw-oN-EBV" secondAttribute="bottom" id="DKR-bR-wzR"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="ebw-oN-EBV" secondAttribute="bottom" constant="33" id="DKR-bR-wzR"/>
                                         <constraint firstItem="ebw-oN-EBV" firstAttribute="leading" secondItem="oxe-k1-R0Q" secondAttribute="trailing" constant="8" id="QMC-4o-kuD"/>
                                         <constraint firstItem="ebw-oN-EBV" firstAttribute="leading" secondItem="8L5-Rh-UCo" secondAttribute="trailing" constant="8" id="RNo-PY-HCi"/>
                                         <constraint firstItem="oxe-k1-R0Q" firstAttribute="top" secondItem="biS-jl-GhE" secondAttribute="topMargin" id="Uf3-6i-zvm"/>
@@ -104,9 +109,14 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="content" destination="8L5-Rh-UCo" id="Qh2-eb-aoZ"/>
+                                    <outlet property="regdate" destination="ebw-oN-EBV" id="Hye-It-vht"/>
+                                    <outlet property="subject" destination="oxe-k1-R0Q" id="LdV-LW-hH8"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MemoCellWithImage" rowHeight="88" id="kf6-l2-NZV">
-                                <rect key="frame" x="0.0" y="114" width="375" height="88"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MemoCellWithImage" rowHeight="88" id="kf6-l2-NZV" customClass="MemoListCell" customModule="MemoApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="117" width="375" height="88"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kf6-l2-NZV" id="P3O-Z1-2oh">
                                     <rect key="frame" x="0.0" y="0.0" width="341" height="87.5"/>
@@ -166,6 +176,12 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="content" destination="7tN-eQ-DhA" id="6lF-gn-M1x"/>
+                                    <outlet property="img" destination="WMQ-f6-8Pb" id="WfP-W2-glU"/>
+                                    <outlet property="regdate" destination="IBh-b3-NTm" id="E6C-8F-Gf2"/>
+                                    <outlet property="subject" destination="nx8-Wj-iyd" id="eAc-ci-aFk"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -261,7 +277,7 @@
                                     <constraint firstAttribute="width" secondItem="zd4-rt-OTD" secondAttribute="height" multiplier="343:207" id="Uc7-7e-XGN"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHb-hC-kGW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내용" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHb-hC-kGW">
                                 <rect key="frame" x="16" y="329" width="343" height="338"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -284,6 +300,11 @@
                         <viewLayoutGuide key="safeArea" id="zER-RP-svo"/>
                     </view>
                     <navigationItem key="navigationItem" title="상세 보기" id="Wyd-mC-Zu0"/>
+                    <connections>
+                        <outlet property="content" destination="aHb-hC-kGW" id="qCl-6R-1YI"/>
+                        <outlet property="img" destination="zd4-rt-OTD" id="ws2-5V-FcS"/>
+                        <outlet property="subject" destination="G0x-24-Gy9" id="fBw-3f-X6S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vEB-Hs-GaN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
