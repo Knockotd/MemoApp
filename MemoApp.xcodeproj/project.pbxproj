@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2234F021B0E16E00710798 /* memo-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2234EE21B0E16E00710798 /* memo-background@2x.png */; };
+		AA2234F121B0E16E00710798 /* warning-icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2234EF21B0E16E00710798 /* warning-icon-60@2x.png */; };
+		AA2234F921B1130B00710798 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2234F821B1130B00710798 /* SWRevealViewController.m */; };
+		AA2234FB21B1152900710798 /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2234FA21B1152900710798 /* SideBarVC.swift */; };
+		AA22350B21B1175800710798 /* more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2234FC21B1175600710798 /* more@2x.png */; };
+		AA22350C21B1175800710798 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2234FD21B1175600710798 /* note.png */; };
+		AA22350D21B1175800710798 /* icon05.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2234FE21B1175600710798 /* icon05.png */; };
+		AA22350E21B1175800710798 /* swift_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2234FF21B1175600710798 /* swift_logo@3x.png */; };
+		AA22350F21B1175800710798 /* icon02.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22350021B1175700710798 /* icon02.png */; };
+		AA22351021B1175800710798 /* profile-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22350121B1175700710798 /* profile-bg.png */; };
+		AA22351121B1175800710798 /* icon03.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22350221B1175700710798 /* icon03.png */; };
+		AA22351221B1175800710798 /* icon01.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22350321B1175700710798 /* icon01.png */; };
+		AA22351321B1175800710798 /* button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22350421B1175700710798 /* button-bg.png */; };
+		AA22351421B1175800710798 /* sidemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22350521B1175700710798 /* sidemenu.png */; };
+		AA22351521B1175800710798 /* rating5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22350621B1175700710798 /* rating5@2x.png */; };
+		AA22351621B1175800710798 /* icon06.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22350721B1175700710798 /* icon06.png */; };
+		AA22351721B1175800710798 /* arrow-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22350821B1175800710798 /* arrow-back@2x.png */; };
+		AA22351821B1175800710798 /* account@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA22350921B1175800710798 /* account@2x.jpg */; };
+		AA22351921B1175800710798 /* icon04.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22350A21B1175800710798 /* icon04.png */; };
 		AAB53EFE21AF7430008A3DD7 /* MemoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB53EFD21AF7430008A3DD7 /* MemoListCell.swift */; };
 		AAB53F0121AF993B008A3DD7 /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB53F0021AF993A008A3DD7 /* coffee.png */; };
 		AAD7672021AE303A00C437B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7671F21AE303A00C437B5 /* AppDelegate.swift */; };
@@ -22,6 +41,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA2234EE21B0E16E00710798 /* memo-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "memo-background@2x.png"; sourceTree = "<group>"; };
+		AA2234EF21B0E16E00710798 /* warning-icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning-icon-60@2x.png"; sourceTree = "<group>"; };
+		AA2234F621B1130800710798 /* MemoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA2234F721B1130B00710798 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		AA2234F821B1130B00710798 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		AA2234FA21B1152900710798 /* SideBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
+		AA2234FC21B1175600710798 /* more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@2x.png"; sourceTree = "<group>"; };
+		AA2234FD21B1175600710798 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		AA2234FE21B1175600710798 /* icon05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon05.png; sourceTree = "<group>"; };
+		AA2234FF21B1175600710798 /* swift_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swift_logo@3x.png"; sourceTree = "<group>"; };
+		AA22350021B1175700710798 /* icon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon02.png; sourceTree = "<group>"; };
+		AA22350121B1175700710798 /* profile-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-bg.png"; sourceTree = "<group>"; };
+		AA22350221B1175700710798 /* icon03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon03.png; sourceTree = "<group>"; };
+		AA22350321B1175700710798 /* icon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon01.png; sourceTree = "<group>"; };
+		AA22350421B1175700710798 /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bg.png"; sourceTree = "<group>"; };
+		AA22350521B1175700710798 /* sidemenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidemenu.png; sourceTree = "<group>"; };
+		AA22350621B1175700710798 /* rating5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rating5@2x.png"; sourceTree = "<group>"; };
+		AA22350721B1175700710798 /* icon06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon06.png; sourceTree = "<group>"; };
+		AA22350821B1175800710798 /* arrow-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-back@2x.png"; sourceTree = "<group>"; };
+		AA22350921B1175800710798 /* account@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "account@2x.jpg"; sourceTree = "<group>"; };
+		AA22350A21B1175800710798 /* icon04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon04.png; sourceTree = "<group>"; };
 		AAB53EFD21AF7430008A3DD7 /* MemoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListCell.swift; sourceTree = "<group>"; };
 		AAB53F0021AF993A008A3DD7 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
 		AAD7671C21AE303A00C437B5 /* MemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +92,24 @@
 		AAB53EFF21AF989D008A3DD7 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				AA2234EE21B0E16E00710798 /* memo-background@2x.png */,
+				AA2234EF21B0E16E00710798 /* warning-icon-60@2x.png */,
 				AAB53F0021AF993A008A3DD7 /* coffee.png */,
+				AA22350921B1175800710798 /* account@2x.jpg */,
+				AA22350821B1175800710798 /* arrow-back@2x.png */,
+				AA22350421B1175700710798 /* button-bg.png */,
+				AA22350321B1175700710798 /* icon01.png */,
+				AA22350021B1175700710798 /* icon02.png */,
+				AA22350221B1175700710798 /* icon03.png */,
+				AA22350A21B1175800710798 /* icon04.png */,
+				AA2234FE21B1175600710798 /* icon05.png */,
+				AA22350721B1175700710798 /* icon06.png */,
+				AA2234FC21B1175600710798 /* more@2x.png */,
+				AA2234FD21B1175600710798 /* note.png */,
+				AA22350121B1175700710798 /* profile-bg.png */,
+				AA22350621B1175700710798 /* rating5@2x.png */,
+				AA22350521B1175700710798 /* sidemenu.png */,
+				AA2234FF21B1175600710798 /* swift_logo@3x.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -79,8 +136,8 @@
 				AAB53EFF21AF989D008A3DD7 /* images */,
 				AAD7671F21AE303A00C437B5 /* AppDelegate.swift */,
 				AAD7672121AE303A00C437B5 /* ViewController.swift */,
-				AAD7672321AE303A00C437B5 /* Main.storyboard */,
 				AAD7672921AE304700C437B5 /* Assets.xcassets */,
+				AAD7672321AE303A00C437B5 /* Main.storyboard */,
 				AAD7672B21AE304700C437B5 /* LaunchScreen.storyboard */,
 				AAD7672E21AE304700C437B5 /* Info.plist */,
 				AAD7672621AE303A00C437B5 /* MemoApp.xcdatamodeld */,
@@ -89,6 +146,10 @@
 				AAD7673821AE60E800C437B5 /* MemoReadVC.swift */,
 				AAD7673A21AE696700C437B5 /* MemoVO.swift */,
 				AAB53EFD21AF7430008A3DD7 /* MemoListCell.swift */,
+				AA2234F721B1130B00710798 /* SWRevealViewController.h */,
+				AA2234F821B1130B00710798 /* SWRevealViewController.m */,
+				AA2234F621B1130800710798 /* MemoApp-Bridging-Header.h */,
+				AA2234FA21B1152900710798 /* SideBarVC.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
@@ -125,6 +186,7 @@
 				TargetAttributes = {
 					AAD7671B21AE303A00C437B5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -151,10 +213,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2234F021B0E16E00710798 /* memo-background@2x.png in Resources */,
+				AA22351321B1175800710798 /* button-bg.png in Resources */,
+				AA22350D21B1175800710798 /* icon05.png in Resources */,
+				AA22350C21B1175800710798 /* note.png in Resources */,
 				AAD7672D21AE304700C437B5 /* LaunchScreen.storyboard in Resources */,
+				AA22351021B1175800710798 /* profile-bg.png in Resources */,
+				AA22351621B1175800710798 /* icon06.png in Resources */,
 				AAB53F0121AF993B008A3DD7 /* coffee.png in Resources */,
+				AA22351921B1175800710798 /* icon04.png in Resources */,
 				AAD7672A21AE304700C437B5 /* Assets.xcassets in Resources */,
+				AA22351121B1175800710798 /* icon03.png in Resources */,
+				AA22351421B1175800710798 /* sidemenu.png in Resources */,
+				AA2234F121B0E16E00710798 /* warning-icon-60@2x.png in Resources */,
+				AA22351821B1175800710798 /* account@2x.jpg in Resources */,
+				AA22350F21B1175800710798 /* icon02.png in Resources */,
+				AA22351521B1175800710798 /* rating5@2x.png in Resources */,
 				AAD7672521AE303A00C437B5 /* Main.storyboard in Resources */,
+				AA22351221B1175800710798 /* icon01.png in Resources */,
+				AA22351721B1175800710798 /* arrow-back@2x.png in Resources */,
+				AA22350E21B1175800710798 /* swift_logo@3x.png in Resources */,
+				AA22350B21B1175800710798 /* more@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +249,8 @@
 				AAD7673921AE60E800C437B5 /* MemoReadVC.swift in Sources */,
 				AAD7673B21AE696700C437B5 /* MemoVO.swift in Sources */,
 				AAD7672821AE303A00C437B5 /* MemoApp.xcdatamodeld in Sources */,
+				AA2234FB21B1152900710798 /* SideBarVC.swift in Sources */,
+				AA2234F921B1130B00710798 /* SWRevealViewController.m in Sources */,
 				AAD7673521AE309600C437B5 /* MemoListVC.swift in Sources */,
 				AAD7672021AE303A00C437B5 /* AppDelegate.swift in Sources */,
 				AAB53EFE21AF7430008A3DD7 /* MemoListCell.swift in Sources */,
@@ -318,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,6 +408,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "naver.knock-otd999.MemoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MemoApp/MemoApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,6 +428,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "naver.knock-otd999.MemoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MemoApp/MemoApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

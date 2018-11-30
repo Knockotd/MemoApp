@@ -23,7 +23,14 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        if let revealVC = self.revealViewController(){
+            let btn = UIBarButtonItem()
+            btn.image = UIImage(named: "sidemenu")
+            btn.target = revealVC
+            btn.action = #selector(revealVC.revealToggle(_:))
+            self.navigationItem.leftBarButtonItem = btn
+            self.view.addGestureRecognizer(revealVC.panGestureRecognizer())
+        }
     }
 
 
