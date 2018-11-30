@@ -146,10 +146,10 @@
 				AAD7673821AE60E800C437B5 /* MemoReadVC.swift */,
 				AAD7673A21AE696700C437B5 /* MemoVO.swift */,
 				AAB53EFD21AF7430008A3DD7 /* MemoListCell.swift */,
+				AA2234FA21B1152900710798 /* SideBarVC.swift */,
 				AA2234F721B1130B00710798 /* SWRevealViewController.h */,
 				AA2234F821B1130B00710798 /* SWRevealViewController.m */,
 				AA2234F621B1130800710798 /* MemoApp-Bridging-Header.h */,
-				AA2234FA21B1152900710798 /* SideBarVC.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
