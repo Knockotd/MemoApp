@@ -38,6 +38,7 @@
 		AAD7673721AE40F800C437B5 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7673621AE40F800C437B5 /* MemoFormVC.swift */; };
 		AAD7673921AE60E800C437B5 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7673821AE60E800C437B5 /* MemoReadVC.swift */; };
 		AAD7673B21AE696700C437B5 /* MemoVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7673A21AE696700C437B5 /* MemoVO.swift */; };
+		AAE0CB2A21B4BAF8003FB462 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE0CB2921B4BAF8003FB462 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		AAD7673621AE40F800C437B5 /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
 		AAD7673821AE60E800C437B5 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
 		AAD7673A21AE696700C437B5 /* MemoVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoVO.swift; sourceTree = "<group>"; };
+		AAE0CB2921B4BAF8003FB462 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				AA2234F721B1130B00710798 /* SWRevealViewController.h */,
 				AA2234F821B1130B00710798 /* SWRevealViewController.m */,
 				AA2234F621B1130800710798 /* MemoApp-Bridging-Header.h */,
+				AAE0CB2921B4BAF8003FB462 /* ProfileVC.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				AA2234F921B1130B00710798 /* SWRevealViewController.m in Sources */,
 				AAD7673521AE309600C437B5 /* MemoListVC.swift in Sources */,
 				AAD7672021AE303A00C437B5 /* AppDelegate.swift in Sources */,
+				AAE0CB2A21B4BAF8003FB462 /* ProfileVC.swift in Sources */,
 				AAB53EFE21AF7430008A3DD7 /* MemoListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -329,6 +329,21 @@
             </objects>
             <point key="canvasLocation" x="-646" y="-565"/>
         </scene>
+        <!--ProfileVC-->
+        <scene sceneID="hWF-H8-KUo">
+            <objects>
+                <viewController storyboardIdentifier="ProfileVC" id="Qls-yB-Zh0" customClass="ProfileVC" customModule="MemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bk3-bv-Slz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SF5-d5-j8T"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kk9-T8-FiE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="614" y="-1739"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="dg4-Im-h9q">
             <objects>
